@@ -1,0 +1,24 @@
+body {
+    background-image: url("../image/sakura.jpg");
+    background-size: cover;
+}
+
+.title {
+    margin-top: 8%;
+    margin-left: 8%;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    margin-left: 8%;
+}
+
+.nav-link {
+    margin-left: 7%;
+    color: grey;
+}
+
+a:hover{
+    color:palevioletred;
+    font-weight: bold;
+}

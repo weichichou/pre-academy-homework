@@ -1,6 +1,5 @@
 body {
-    background-image: url("../image/sakura.jpg");
-    background-size: cover;
+    background: linear-gradient(pink, #ebf8e1, pink);
 }
 
 a{
@@ -16,6 +15,7 @@ a:hover{
 .container {
     margin: 1em 1em;
     padding: 1em;
+    text-align: center;
     background-color: seashell;
     opacity: 0.5;
     position: -webkit-sticky; /* Safari */
@@ -24,13 +24,23 @@ a:hover{
     z-index: 1;
 }
 
+h5 {
+    margin-bottom: 0em;
+}
+
+.profilePicDiv {
+    height: 100vh;   
+}
 
 .profilePic {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center 3em;
     background-image: url("../image/bear.jpg");
-    background-size: 200px;
+    height: 350px;
+    width:295px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50% 20% / 10% 40%;
+    margin: auto auto;
 }
 
 .section {
@@ -41,6 +51,8 @@ a:hover{
 .sectionText{
     position: absolute;
     bottom:4em;
+    left: 50%;
+    transform: translateX(-50%);
     color: seashell;
     text-align: center;
 }

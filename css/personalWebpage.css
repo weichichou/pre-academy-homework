@@ -59,7 +59,16 @@ h5 {
 
 #from {
   background-image: url("../image/Ali.JPG");
-  background-size:600px;  
+  background-size:auto 450px;  
   background-repeat: no-repeat;
   position: relative;
+}
+
+
+.d-block {
+    height: 90vh;
+}
+
+.carousel-item img {
+   margin: auto auto;
 }

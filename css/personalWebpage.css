@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(pink, #ebf8e1, pink);
+    /*background: linear-gradient(lightcoral, #ebf8e1, peachpuff, #ebf8e1, black);*/
+    background-image: url("../image/lightbg.jpg");
 }
 
 a{
@@ -12,27 +13,26 @@ a:hover{
     text-decoration: none !Important;
 }
 
-.container {
+#heading {
     margin: 1em 1em;
     padding: 1em;
     text-align: center;
     background-color: seashell;
-    opacity: 0.5;
+    opacity: 0.7;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0.5em;
     z-index: 1;
 }
 
-h5 {
-    margin-bottom: 0em;
+
+#profileDiv {
+    width: 100vw;
+    height:100vh;
+    color:seashell;
 }
 
-.profilePicDiv {
-    height: 100vh;   
-}
-
-.profilePic {
+#profilePic{
     background-image: url("../image/bear.jpg");
     height: 350px;
     width:295px;
@@ -40,7 +40,11 @@ h5 {
     background-size: contain;
     background-position: center;
     border-radius: 50% 20% / 10% 40%;
-    margin: auto auto;
+    margin: 3em auto;
+}
+
+#profileText{
+    margin: 6em auto;
 }
 
 .section {
@@ -49,6 +53,7 @@ h5 {
 }
 
 .sectionText{
+    width: 100%;
     position: absolute;
     bottom:4em;
     left: 50%;
@@ -58,12 +63,18 @@ h5 {
 }
 
 #from {
-  background-image: url("../image/Ali.JPG");
-  background-size:auto 450px;  
+  background-image: url("../image/taipei101.jpg");
+  background-size:757px 500px;  
   background-repeat: no-repeat;
   position: relative;
 }
 
+#who {
+    background-image: url("../image/globe.jpg");
+    background-size:757px;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 .d-block {
     height: 90vh;

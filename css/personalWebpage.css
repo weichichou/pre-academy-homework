@@ -13,8 +13,10 @@ a:hover{
     text-decoration: none !Important;
 }
 
+
 #heading {
-    margin: 1em 1em;
+    margin-top: 1em;
+    /*margin-left:5vw;*/
     padding: 1em;
     text-align: center;
     background-color: seashell;
@@ -23,11 +25,12 @@ a:hover{
     position: sticky;
     top: 0.5em;
     z-index: 1;
+    min-width: 90vw;
+    
 }
 
 
 #profileDiv {
-    width: 100vw;
     height:100vh;
     color:seashell;
 }
@@ -62,24 +65,42 @@ a:hover{
     text-align: center;
 }
 
-#from {
+#imfrom {
   background-image: url("../image/taipei101.jpg");
   background-size:757px 500px;  
   background-repeat: no-repeat;
   position: relative;
 }
 
-#who {
+#ibelieve {
     background-image: url("../image/globe.jpg");
     background-size:757px;
     background-repeat: no-repeat;
     position: relative;
 }
 
-.d-block {
-    height: 90vh;
+.carousel-item {
+   height: 90vh;
+
 }
 
-.carousel-item img {
-   margin: auto auto;
+.musical-item {
+    background-image: url("../image/musical.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.uke-item {
+    background-image: url("../image/uke.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tea-item {
+    background-image: url("../image/tea.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
